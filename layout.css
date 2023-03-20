@@ -1,0 +1,55 @@
+.cabecalho {
+    display: inline-block;
+    height: 110px;
+    width: 100%;
+    background: rgba(31, 34, 53, 1);
+}
+
+.cabecalho_botes {
+    padding: 20px;
+    margin-top: 22px;
+    text-align: center;
+    display: inline-block;
+}
+
+.home,
+.contato {
+    font-size: 18px;
+    font-style: normal;
+    font-family: 'Poppins';
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 15px;
+    cursor: auto;
+    padding: 14px;
+}
+
+.home:hover,
+.contato:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    box-shadow: 2px 2px 7px 2px;
+    text-decoration: underline;
+    color: rgb(210, 211, 224);
+}
+
+main {
+    display: inline-block;
+}
+
+aside {
+    display: inline-block;
+    width: 195px;
+}
+
+body {
+    margin: 0px;
+    background-color: rgba(59, 61, 93, 1);
+    width: 100%;
+}
+
+.corpo {
+    display: inline-block;
+    padding: 50px 150px 150px 250px;
+
+}

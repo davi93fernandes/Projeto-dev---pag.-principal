@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="contato.css">
+    <script src="script.js"></script>
+    <script src="contato.js"></script>
+    <title>Contato</title>
+</head>
+
+<body class="corpoContato">
+    <header class="cabecalho">
+        <nav class="cabecalho_botes">
+            <a class="home" href="index.html">Home</a>
+            <a class="contato" href="#">Contato</a>
+        </nav>
+    </header>
+
+
+
+    <div class="formulario">
+
+        <input id="nome" placeholder="Digite seu nome" type="text" name="">
+        <input id="email" placeholder="Digite seu e-mail" type="text" name="">
+        <textarea id="mensagem" placeholder="Digite sua mensagem" cols="30" rows="10"></textarea>
+        <button onclick="aoClikar()" id="botaoEnviar" class="botaoEnviar">Enviar</button>
+
+    </div>
+    <div id="status" class="msgSucesso">Seu e-mail foi enviado com sucesso!</div>
+
+    <div id="quadroSucesso" class="sucesso">
+        <h3>Retorno da API</h3>
+        <p>Verifique o Retorno da API e mostra os dados abaixo no HTML:</p>
+        <span id="retornoNome"> Nome:</span><br>
+        <span id="retornoEmail"> E-mail:</span><br>
+        <span id="retornoMensagem"> Mensagem:</span><br>
+
+    </div>
+
+</body>
+
+</html>
