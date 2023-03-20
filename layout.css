@@ -22,6 +22,7 @@
     margin: 15px;
     cursor: auto;
     padding: 14px;
+    border-radius: 5px;
 }
 
 .home:hover,
@@ -35,11 +36,16 @@
 
 main {
     display: inline-block;
+    width: 400px;
 }
 
 aside {
     display: inline-block;
-    width: 195px;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    line-height:50px;
 }
 
 body {
@@ -50,6 +56,7 @@ body {
 
 .corpo {
     display: inline-block;
-    padding: 50px 150px 150px 250px;
+    padding: 50px 130px 50px 200px;
+    width: 780px;
 
 }
